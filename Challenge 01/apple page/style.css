@@ -1,0 +1,263 @@
+.apple {
+    height: 37px;
+    width: 37px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 144px;
+}
+
+.navlinks {
+    text-decoration: none;
+    color: white;
+    float: right;
+    margin-top: 25px;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.linkspace {
+    margin-right: 170px;
+}
+
+.linkspace :hover {
+    text-decoration: underline;
+    color: rgb(73, 70, 70);
+}
+
+body{
+    background-color: steelblue;
+    margin: 0%;
+}
+
+.apple_devices{
+    margin-left: 350px;
+    margin-right: auto;
+}
+
+.apple_devices_img {
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.icons{
+   display: inline;
+   
+}
+
+.macbookair {
+    background-color: lightgray;
+    width: 25%;
+    height: 170px;
+    text-align: center ;
+    float: left;
+
+}
+
+.laptop_img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.ipad {
+    background-color: darkgray;
+    width: 25%;
+    height: 170px;
+    text-align: center;
+    float: left;
+}
+
+.ipad_img {
+    width: 70px;
+    margin-top: 10px;
+}
+
+.iphone {
+    background-color: teal;
+    width: 25%;
+    height: 170px;
+    text-align: center;
+    float: left;
+}
+
+.iphone_img {
+    width: 60px;
+    margin-top: 10px;
+}
+
+.about {
+    background-color: lightskyblue;
+    width: 25%;
+    height: 170px;
+    text-align: center;
+    float: right;
+}
+
+.about_img {
+    width: 80px;
+    margin-top: 10px;
+}
+
+.ipad_block {
+    width: 50%;
+    height: 250px;
+    background-color: lightblue;
+    float: left;
+}
+
+.ipadtext {
+    width: 50%;
+    height: 250px;
+    background-color: darkgray;
+    float: right;
+    color: white;
+    text-align: center;
+}
+
+.ipadimg {
+    height: 90%;
+    margin-left: 240px;
+    margin-top: 15px;
+}
+
+.textinipad {
+    margin: 15px;
+}
+
+.h3ipad {
+    text-align: center;
+}
+
+.iphone_block {
+    width: 50%;
+    height: 250px;
+    background-color: lightblue;
+    float: right;
+}
+
+.iphonetext {
+    width: 50%;
+    height: 250px;
+    background-color: tan;
+    float: left;
+    color: white;
+    text-align: center;
+}
+
+.iphoneimg {
+    height: 90%;
+    margin-left: 240px;
+    margin-top: 15px;
+}
+
+.text_iniphone {
+    margin: 15px;
+}
+
+.h3iphone {
+    text-align: center;
+}
+
+.mac_img {
+    width: 50%;
+    height: 250px;
+    background-color: lightblue;
+    float: left;
+}
+
+.mactext {
+    width: 50%;
+    height: 230px;
+    background-color: salmon;
+    float: right;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.macimg {
+    height: 90%;
+    margin-left: 240px;
+    margin-top: 15px;
+}
+
+.text_inmac {
+    margin: 15px;
+}
+
+.h3mac {
+    text-align: center;
+}
+
+.team {
+    width: 33%;
+    float: left;
+    height: 135px;
+    background-color: darkgray;
+}
+
+.sallary {
+    width: 34%;
+    float: left;
+    height: 135px;
+    background-color: tan;
+}
+
+.earnings {
+    width: 33%;
+    float: left;
+    height: 135px;
+    background-color: skyblue;
+}
+
+.textblock {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+.tse {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.link_icons {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.social_linksdivs{
+    float: left;
+    margin-top: 50px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-bottom: 50px;
+}
+
+.footer-bottom {
+    background-color: rgb(90, 31, 52);
+    padding: 0px;
+    height: 50px;
+    text-align: center;
+    color: aliceblue;
+    float: right;
+    width: 100%;
+}
+
+.link_iconfacebook{
+    float: left;
+    margin-top: 50px;
+    margin-left: 380px;
+    margin-right: 65px;
+    margin-bottom: 50px;
+}
+
+.link_iconinstagram{
+    float: left;
+    margin-top: 50px;
+    margin-left: 65px;
+    margin-right: 160px;
+    margin-bottom: 50px;
+}
