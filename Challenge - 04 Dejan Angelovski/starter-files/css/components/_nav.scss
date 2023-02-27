@@ -1,0 +1,115 @@
+@use "../abstracts/mixins" as mix;
+@use "../abstracts/variables" as var;
+@use "sass:math";
+
+.height {
+    height: (var.$gutter-base * 6.25);
+    @include mix.four-k-styles {
+        padding-left: (var.$gutter-base * 4);
+    }
+    @include mix.tablet-styles{
+        padding-left: 0;
+        padding-top: (var.$gutter-base * 2);
+    }
+}
+
+.inner {
+    position: fixed;
+    width: 20%;
+    top: 0;
+    left: 0;
+
+    @include mix.tablet-styles {
+        width: 100%;
+        background-color: white;
+        height: (var.$gutter-base * 2);
+        z-index: 1;
+    }
+}
+
+.list {
+    @extend %section;
+    @extend %wrap;
+    @extend %d-flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include mix.tablet-styles {
+        flex-direction: row;
+
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+    }
+
+    img {
+        margin-bottom: var.$gutter-base * 2;
+        @include mix.tablet-styles {
+            margin-bottom: 0;
+            display: inline-block;
+            flex: 0 0 130px;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+
+        & > *:last-child {
+            margin-bottom: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: var.$text-color-base;
+        }
+
+        li {
+            margin-bottom: math.div(var.$gutter-base, 2);
+
+            a {
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .laptop {
+        margin-bottom: var.$gutter-base * 6;
+        @include mix.tablet-styles {
+            margin-bottom: 0;
+            display: none;
+        }
+    }
+
+    .burger-menu {
+        display: none;
+        margin-bottom: 0;
+
+        @include mix.tablet-styles {
+            display: inline-block;
+            flex: 0 1 auto;
+        }
+    }
+    .footer {
+        p {
+            font-size: math.div(var.$gutter-base, 2.3);
+            margin-bottom: 0;
+
+            @include mix.tablet-styles {
+                display: none;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: var.$text-color-base;
+            font-weight: var.$font-weight-bold;
+        }
+    }
+}
