@@ -311,3 +311,230 @@ hr {
   color: #37a0f3;
 }
 /*!!! section 4 */
+
+/* footer */
+
+.footer .content {
+  margin-bottom: 0;
+}
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.footer .icons {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.footer .icon:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  color: #37a0f3;
+}
+
+.footer p {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #acb1b6;
+}
+
+.footer .content p {
+  line-height: 1.5;
+}
+
+.footer .content span {
+  color: #fff;
+}
+/*!!! footer */
+
+@media (max-width: 769px) {
+  .wrap {
+    width: 85%;
+  }
+  .hero {
+    background-position: left;
+  }
+
+  .heading button {
+    width: 30%;
+  }
+
+  /* ------------------------------------------- */
+
+  .content {
+    width: 90%;
+  }
+  .content p {
+    font-size: 14px;
+  }
+
+  .grid {
+    flex-direction: column;
+    height: 500px;
+  }
+
+  .grid .child,
+  .grid .child1 {
+    align-items: center;
+    flex-basis: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .coast {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .baloon {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  /* ------------------------------------------------------- */
+
+  .grid2 {
+    flex-direction: column;
+  }
+
+  .grid2 .content {
+    width: 60%;
+  }
+
+  .grid2 .child:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  /* -------------------------------------------------------- */
+
+  .signup {
+    width: 80%;
+  }
+
+  .signup form {
+    flex-wrap: wrap;
+  }
+
+  .signup input {
+    flex-basis: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .signup button {
+  }
+
+  /* ------------------------------------------------------ */
+  .footer .content {
+    width: 50%;
+  }
+}
+
+@media (max-width: 426px) {
+  .wrap {
+    width: 80%;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  .navbar.wrap {
+    width: 95%;
+  }
+
+  .navbar ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar ul li:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .heading h1 {
+    font-size: 60px;
+  }
+
+  .heading p {
+    font-size: 26px;
+  }
+
+  .heading button {
+    font-size: 14px;
+    width: 65%;
+  }
+
+  /*-------------------------------------------------------- */
+
+  .content {
+    width: 80%;
+  }
+
+  .content h2 {
+    font-size: 45px;
+  }
+  .content p {
+    text-indent: 0;
+  }
+
+  /* ------------------------------------------------- */
+
+  .grid {
+    flex-direction: column;
+    height: 800px;
+  }
+
+  .coast {
+    margin-bottom: 40px;
+  }
+
+  .baloon {
+    margin-bottom: 40px;
+  }
+  .first {
+    margin-bottom: 40px;
+  }
+
+  /* --------------------------------------- */
+
+  .grid2 .content {
+    width: 57%;
+  }
+
+  .signup button {
+    padding: 20px 80px;
+  }
+
+  /* ------------------------------------------------------------- */
+
+  .footer .content {
+    width: 55%;
+  }
+
+  .footer p:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}
