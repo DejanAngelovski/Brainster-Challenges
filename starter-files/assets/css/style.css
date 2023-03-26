@@ -1,0 +1,135 @@
+.navbar-light .navbar-toggler-icon {
+  background-image: none;
+  width: auto;
+  height: auto;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+ul.navbar-nav li a {
+  font-size: 0.75rem;
+}
+
+ul.navbar-nav li a:hover {
+  color: white !important;
+}
+.h-caro {
+  padding-top: 56px;
+  height: 70vh;
+}
+
+.centered {
+  top: 50% !important;
+  left: 50% !important;
+  bottom: auto !important;
+  right: auto !important;
+  transform: translate(-50%, -50%);
+}
+
+.pic-1 {
+  background: linear-gradient(
+      rgba(139, 130, 130, 0.3),
+      rgba(134, 132, 132, 0.3)
+    ),
+    url(../../Images/lights.jpg);
+}
+
+.pic-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Images/media.jpg);
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.text-black {
+  color: black;
+}
+.icons {
+  font-size: 30px;
+}
+
+.btn-bold {
+  border: 3px solid red;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-aboutus {
+  background: url(../../Images/image1.jpg);
+  position: relative;
+}
+
+.bg-aboutus::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+.vh-calc {
+  height: 600px;
+}
+
+.icons-2 {
+  font-size: 25px;
+}
+
+.border-radius {
+  border: 1px solid red;
+  border-radius: 2%;
+  margin-right: 0 !important;
+}
+
+.img-position {
+  position: absolute;
+  top: -20%;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.icon3 {
+  font-size: 30px;
+}
+.size {
+  font-size: 20px;
+}
+.carousel-start {
+  justify-content: start;
+}
+
+.carousel-end {
+  justify-content: end;
+}
+
+.bg-acc {
+  background-color: #212121;
+}
+
+.btn {
+  box-shadow: none !important;
+}
+.w-90 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pointer {
+  cursor: pointer;
+}
