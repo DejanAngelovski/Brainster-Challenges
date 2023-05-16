@@ -1,0 +1,74 @@
+body {
+  background-image: url(./images/img.jpeg);
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  text-transform: lowercase;
+}
+.keyboard {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0;
+  user-select: none;
+  transition: bottom 0.4s;
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.284), rgba(0, 0, 0, 0.273));
+}
+
+.keyboard--hidden {
+  bottom: -100%;
+}
+
+.keyboard__keys {
+  text-align: center;
+}
+
+.keyboard__key {
+  height: 60px;
+  width: 40%;
+  max-width: 100px;
+  margin: 4px;
+  border-radius: 30px;
+  border: 3px solid black;
+  background: transparent;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.467), rgba(0, 0, 0, 0.425));
+}
+
+.keyboard__key:active {
+  background-color: black;
+}
+
+.keyboard__key--wide {
+  width: 30%;
+  max-width: 400px;
+}
+
+button:hover {
+  background: linear-gradient(217deg, rgba(0, 0, 0, 1), rgba(255, 254, 254, 0)),
+    linear-gradient(336deg, rgba(0, 0, 0, 1), rgba(0, 0, 255, 0)),
+    linear-gradient(127deg, rgba(0, 0, 0, 1), rgba(0, 255, 0, 0));
+}
