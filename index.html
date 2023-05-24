@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Progress Page</title>
+</head>
+
+<body>
+    <ul class="first-list"></ul>
+    <ul class="second-list"></ul>
+    <table style="border-spacing: 15px">
+        <thead>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Max Pages</th>
+            <th>On Page</th>
+            <th>Progress</th>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <h2>Add book to the list:</h2>
+    <form>
+        <input type="text" id="title-input" placeholder="Book Title" required />
+        <input type="text" id="author-input" placeholder="Book Author" required />
+        <input type="number" id="on-page-input" placeholder="Current Page On..." required />
+        <input type="number" id="max-pages-input" placeholder="Book Max Pages" required />
+        <button type="submit">Add to List</button>
+    </form>
+    <script src="./main.js"></script>
+</body>
+
+</html>
