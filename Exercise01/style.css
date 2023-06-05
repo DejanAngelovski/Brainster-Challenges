@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(56, 172, 149);
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  background-color: aliceblue;
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin-top: 280px;
+}
+ul {
+  margin: 25px;
+  padding: 0;
+}
