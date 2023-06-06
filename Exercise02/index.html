@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CUBE</title>
+</head>
+
+<body>
+    <script>
+        function Cube(a) {
+            this.a = a;
+            this.perimeter = function () {
+                console.log(`Perimetarot iznesuva: ${12 * this.a}`);
+            };
+            this.plostina = function () {
+                console.log(`Plostinata iznesuva: ${6 * Math.pow(this.a, 2)}`);
+            };
+        }
+        let side = parseInt(prompt("Vnesi starana:"));
+        let newCube = new Cube(side);
+        newCube.perimeter();
+        newCube.plostina();
+    </script>
+</body>
+
+</html>

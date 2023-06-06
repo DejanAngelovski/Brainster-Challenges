@@ -1,10 +1,10 @@
 const myUl = document.querySelector("ul");
 
-function EmployeeData(name, companyName, jobPostion, salary) {
-  this.name = name;
-  this.companyName = companyName;
-  this.jobPostion = jobPostion;
-  this.salary = salary;
+function EmployeeData(_name, _companyName, _jobPostion, _salary) {
+  this.name = _name;
+  this.companyName = _companyName;
+  this.jobPostion = _jobPostion;
+  this.salary = _salary;
 
   this.data = function () {
     let myList = document.createElement("li");
