@@ -1,0 +1,37 @@
+@import "../css/abstracts/mixins";
+
+.bg-banner{
+
+    background:  linear-gradient(rgba(0, 0, 0, 0.086), rgba(0, 0, 0, 0.087)), url("../../public/banner.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .banner {
+        @extend %wrap;
+        color: white;
+        
+        p{
+            text-transform: uppercase;
+
+        }
+
+        button{
+         text-transform: uppercase;
+         padding: 10px 30px;
+         background-color: #fff;
+         border: none;
+         margin-top: 10px;
+
+         @media (max-width: 426px) {
+           width: 100%;
+        }
+        }
+        
+      }
+      
+}

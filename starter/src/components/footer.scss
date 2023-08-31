@@ -1,0 +1,22 @@
+@import "../css/abstracts/mixins";
+
+.footer{
+   @extend %section;
+
+    background-color: rgb(230, 229, 229);
+    color: rgb(151, 116, 68);
+    text-transform: uppercase;
+    text-align: center;
+
+    p{
+
+        &:hover{
+            color: red;
+            cursor: pointer;
+        }
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}
