@@ -2,10 +2,11 @@
 
 .bg-banner{
 
-    background:  linear-gradient(rgba(0, 0, 0, 0.086), rgba(0, 0, 0, 0.087)), url("../../public/banner.jpg");
+    background: url("../../public/banner.jpg");
 
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 0;
     height: 100vh;
 
     display: flex;

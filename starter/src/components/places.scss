@@ -10,6 +10,10 @@
     justify-content: center;
     align-items: center;
     flex-basis: 33.3333%;
+    img {
+      width: 100%;
+      height: auto;
+    }
 
     @media (max-width: 769px) {
       flex-basis: 50%;
