@@ -13,9 +13,10 @@
     img {
       width: 100%;
       height: auto;
+      filter: brightness(50%)
     }
 
-    @media (max-width: 769px) {
+    @media (max-width: 1080px) {
       flex-basis: 50%;
     }
 
@@ -24,6 +25,7 @@
     }
 
     .wrapper {
+      z-index: 50;
       position: absolute;
       color: white;
       text-align: center;
