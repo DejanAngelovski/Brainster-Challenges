@@ -1,0 +1,62 @@
+.favs {
+  color: rgb(255, 68, 0);
+  font-size: 30px;
+}
+
+.favs-card {
+  color: rgb(255, 68, 0);
+  font-size: 38px;
+
+  z-index: 1000;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
+
+.setimage {
+  overflow: hidden;
+}
+.obj-fit{
+  object-fit: cover;
+  object-position: center;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-body {
+  height: 150px;
+}
+
+.corners {
+  border-radius: 10px;
+}
+
+.card-width {
+  width: 15.7rem;
+  width: 15.7rem;
+  display: block;
+}
+
+.rounded {
+  border-radius: 11px !important;
+  border: none;
+}
+
+.col-2 {
+  width: 20%;
+}
+img {
+  height: 188px;
+}
+
+.position-absolute {
+  top: 10px;
+  left: 10px;
+}

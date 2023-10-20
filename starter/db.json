@@ -79,10 +79,17 @@
       "restauranttype": "canteen",
       "businessname": "pot a soup kitchen",
       "address": "2 Jim Unah Way, Platinum Estate, Folarin Bustop, Badore, Ajah, Lagos Nigeria",
-      "slug": "pot-a-soup-kitchen",
+      "slug": "pot a soup kitchen",
       "email": "pot-a-soup-kitchen@gmail.com",
       "id": "5f5eccf3e923d0aca3e7d41d",
-      "reviewsList": []
+      "reviewsList": [
+        {
+          "id": 0,
+          "author": "t",
+          "comment": "rrt",
+          "stars": 4
+        }
+      ]
     },
     {
       "reviews": 0,
